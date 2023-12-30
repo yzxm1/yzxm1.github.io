@@ -5393,3 +5393,7 @@ img[fancybox='true'] {
 .md-text .tag-plugin[child=codeblock] .highlight .code .copy-btn {
   border-radius: 6px;
 }
+.cmt-body.beaudar {
+  margin: 0 -4px;
+  width: calc(100% + 8px);
+}

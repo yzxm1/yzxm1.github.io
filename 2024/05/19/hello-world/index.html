@@ -3,7 +3,7 @@
 <html lang="cn-zh">
 <head>
     <meta charset="utf-8" />
-    <title>Hello World | yzxm的小窝</title>
+    <title>Hello World | yzxmの小窝</title>
     <meta name="author" content="Yzxm" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -63,7 +63,7 @@
         <div id="menu" :class="{ hidden: hiddenMenu, 'menu-color': menuColor}">
     <nav id="desktop-menu">
         <a class="title" href="/">
-            <span>YZXM的小窝</span>
+            <span>YZXMの小窝</span>
         </a>
         
         <a href="/">
@@ -95,7 +95,7 @@
     <nav id="mobile-menu">
         <div class="title" @click="showMenuItems = !showMenuItems">
             <i class="fa-solid fa-bars fa-fw"></i>
-            <span>&emsp;YZXM的小窝</span>
+            <span>&emsp;YZXMの小窝</span>
         </div>
         <transition name="slide">
             <div class="items" v-show="showMenuItems">
@@ -189,6 +189,10 @@
     
     
     
+    <div id="comment">
+        <div id="giscus-container" class="giscus"></div>
+    </div>
+    
     
     
     
@@ -198,7 +202,7 @@
     <div id="footer-wrap">
         <div>
             &copy;
-            2022 - 2024 yzxm的小窝
+            2022 - 2024 yzxmの小窝
             <span id="footer-icon">
                 <i class="fa-solid fa-font-awesome fa-fw"></i>
             </span>
@@ -224,6 +228,23 @@
     <script src="/js/main.js"></script>
     
     
+<script
+    src="https://giscus.app/client.js"
+    data-repo="yzxm1/yzxm1.github.io"
+    data-repo-id="R_kgDOL9oi6w"
+    data-category="Q&A"
+    data-category-id="DIC_kwDOL9oi684Cfd2Q"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="preferred_color_scheme"
+    data-lang="zh-CN"
+    crossorigin
+    async
+></script>
+
 
 
 

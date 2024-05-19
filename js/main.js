@@ -37,6 +37,7 @@ const app = Vue.createApp({
                 else wrap.style.top = "-80px";
             }
             this.scrollTop = newScrollTop;
+         
         },
     },
 });

@@ -3,7 +3,7 @@
 <html lang="zh-cn">
 <head>
     <meta charset="utf-8" />
-    <title>Archives | lbcの小窝</title>
+    <title>About | lbcの小窝</title>
     <meta name="author" content="Lbc" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -40,7 +40,9 @@
 
 
 
-<script src="/js/lib/search.js"></script>
+
+
+
 
 
 
@@ -152,42 +154,53 @@
 </transition>
 
         <div id="main" :class="loading ? 'into-enter-from': 'into-enter-active'">
-            
-<div id="archives">
-    
-    <input id="search-bar" class="input" placeholder="搜索" v-model="rawSearch" />
-    
-    <div id="timeline-wrap" ref="timeline">
+            <div class="article">
+    <div>
+        <h1>About</h1>
+    </div>
+    <div class="info">
+        <span class="date">
+            <span class="icon">
+                <i class="fa-solid fa-calendar fa-fw"></i>
+            </span>
+            2024/5/26
+        </span>
         
-        <div class="timeline" data-title="helloworld">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/5/19</div>
-                <a href="/2024/05/19/hello-world/">
-                    <h3>Hello World</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="timeline" data-title="about">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/5/26</div>
-                <a href="/2024/05/26/about/about/">
-                    <h3>About</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                </div>
-            </div>
-        </div>
         
     </div>
+    
+    <div class="content" v-pre>
+        <h1 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h1><blockquote>
+<p>一个简单的学生罢了，一切都是起点，一切都是新开始…</p>
+</blockquote>
+<hr>
+<h3 id="语言"><a href="#语言" class="headerlink" title="语言"></a>语言</h3><ul>
+<li>C</li>
+<li>Python</li>
+<li>java</li>
+<li>Bash</li>
+</ul>
+<h4 id="其实都不是很熟呢…"><a href="#其实都不是很熟呢…" class="headerlink" title="其实都不是很熟呢…"></a><del>其实都不是很熟呢…</del></h4><hr>
+<p><img src="/image/avatar.jpg" alt="头像"></p>
+<h3 id="联系我"><a href="#联系我" class="headerlink" title="联系我"></a>联系我</h3><blockquote>
+<ul>
+<li>邮箱 <a href="mailto:&#121;&#122;&#120;&#109;&#x35;&#48;&#x30;&#50;&#x37;&#x36;&#x31;&#53;&#x38;&#x40;&#x71;&#113;&#x2e;&#x63;&#x6f;&#x6d;">&#121;&#122;&#120;&#109;&#x35;&#48;&#x30;&#50;&#x37;&#x36;&#x31;&#53;&#x38;&#x40;&#x71;&#113;&#x2e;&#x63;&#x6f;&#x6d;</a></li>
+<li>酷安 茶会的旁观者</li>
+</ul>
+</blockquote>
+
+    </div>
+    
+    
+    
+    
+    <div id="comment">
+        <div id="giscus-container" class="giscus"></div>
+    </div>
+    
+    
+    
+    
 </div>
 
             <footer id="footer">
@@ -218,6 +231,29 @@
         
     </div>
     <script src="/js/main.js"></script>
+    
+    
+<script
+    src="https://giscus.app/client.js"
+    data-repo="yzxm1/yzxm1.github.io"
+    data-repo-id="R_kgDOL9oi6w"
+    data-category="Q&A"
+    data-category-id="DIC_kwDOL9oi684Cfd2Q"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="preferred_color_scheme"
+    data-lang="zh-CN"
+    crossorigin
+    async
+></script>
+
+
+
+
+
     
 </body>
 </html>

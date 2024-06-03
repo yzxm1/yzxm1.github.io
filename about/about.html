@@ -3,7 +3,7 @@
 <html lang="zh-cn">
 <head>
     <meta charset="utf-8" />
-    <title>lbcの小窝</title>
+    <title>About | lbcの小窝</title>
     <meta name="author" content="Lbc" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -42,7 +42,9 @@
 
 
 
-<script src="/js/lib/home.js"></script>
+
+
+
 
 <link rel="stylesheet" href="/css/main.css" />
 
@@ -152,105 +154,61 @@
 </transition>
 
         <div id="main" :class="loading ? 'into-enter-from': 'into-enter-active'">
-            <div id="home-head">
-    <div
-        id="home-background"
-        ref="homeBackground"
-        data-images="/images/background.jpg"
-    ></div>
-    <div id="home-info" @click="homeClick">
-        <span class="loop"></span>
-        <span class="loop"></span>
-        <span class="loop"></span>
-        <span class="loop"></span>
-        <span class="info">
-            <div class="wrap">
-                <h1>lbcの小窝</h1>
-                <h3>欢迎！</h3>
-                <h5></h5>
-            </div>
-        </span>
+            <div class="article">
+    <div>
+        <h1>About</h1>
     </div>
-</div>
-<div
-    id="home-posts-wrap"
-    ref="homePostsWrap"
-    true
->
-    <div id="home-posts">
-        
-
-<div class="post">
-    <a href="/2024/05/19/hello-world/">
-        <h2 class="post-title">Hello World</h2>
-    </a>
-    <div class="category-and-date">
-        
+    <div class="info">
         <span class="date">
             <span class="icon">
                 <i class="fa-solid fa-calendar fa-fw"></i>
             </span>
-            2024/5/19
+            2024/6/3
         </span>
         
         
     </div>
-    <div class="description">
-        <div class="content" v-pre>
-            
-            <!--- 终于搭好了，还是花了不少时间啊... ---!>
-
-
-又一次把这个搭起来了，虽然不是第一次，但还是花了不少时间啊。
-~~ 站主是学生，学业繁忙，博客很可能长时间不更新。 ~~
-            
-        </div>
-    </div>
-    <div class="post-tags">
-        
-        
-        
-    </div>
-    <a href="/2024/05/19/hello-world/" class="go-post">阅读全文</a>
-</div>
-
-
-        <div class="page-current">
     
-    <span class="current">1</span>
-    
-    
-    
-    
-</div>
-
-    </div>
-    
-    <div id="home-card">
-        <div id="card-style">
-    <div id="card-div">
-        <div class="avatar">
-            <img src="/images/avatar.jpg" alt="avatar" />
-        </div>
-        <div class="name">Lbc</div>
-        <div class="description">
-            <p>Description<br>…</p>
-
-        </div>
-        
-        
-        <div class="friend-links">
-            
-            <div class="friend-link">
-                <a target="_blank" rel="noopener" href="https://argvchs.github.io">Argvchs</a>
-            </div>
-            
-        </div>
-        
-    </div>
-</div>
+    <div class="content" v-pre>
+        <h1 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h1><blockquote>
+<p>一个的学生，一切都是起点，一切都是新开始</p>
+</blockquote>
+<hr>
+<h3 id="语言"><a href="#语言" class="headerlink" title="语言"></a>语言</h3><ul>
+<li>C</li>
+<li>Python</li>
+<li>java</li>
+<li>Bash</li>
+</ul>
+<h4 id="其实都不是很熟呢…"><a href="#其实都不是很熟呢…" class="headerlink" title="其实都不是很熟呢…"></a><del>其实都不是很熟呢…</del></h4><hr>
+<h3 id="联系我"><a href="#联系我" class="headerlink" title="联系我"></a>联系我</h3><table>
+<thead>
+<tr>
+<th align="center">平台</th>
+<th align="center">链接</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">email</td>
+<td align="center"><a href="yzxm516754219@163.com">163邮箱</a></td>
+</tr>
+<tr>
+<td align="center">github</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://github.com/yzxm1">yzxm1</a></td>
+</tr>
+</tbody></table>
 
     </div>
+    
+    
+    
+    
+    <div id="comment">
+        <div id="giscus-container" class="giscus"></div>
+    </div>
+    
+    
+    
     
 </div>
 
@@ -282,6 +240,29 @@
         
     </div>
     <script src="/js/main.js"></script>
+    
+    
+<script
+    src="https://giscus.app/client.js"
+    data-repo="yzxm1/yzxm1.github.io"
+    data-repo-id="R_kgDOL9oi6w"
+    data-category="Q&A"
+    data-category-id="DIC_kwDOL9oi684Cfd2Q"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="preferred_color_scheme"
+    data-lang="zh-CN"
+    crossorigin
+    async
+></script>
+
+
+
+
+
     
 </body>
 </html>
